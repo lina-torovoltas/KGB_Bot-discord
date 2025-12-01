@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/language%20-%20Python-blue)
 ![OS](https://img.shields.io/badge/OS-linux-blue)
 ![License](https://img.shields.io/github/license/Foxity-Team/KGB_Bot-discord)
-![GitHub last commit](https://img.shields.io/github/last-commit/Foxity-Team/KGB_Bot-discord)</br>
+![GitHub last commit](https://img.shields.io/github/last-commit/lina-torovoltas/KGB_Bot-discord)</br>
 
 KGB Bot - universal assistant on your discord server!</br>
 
