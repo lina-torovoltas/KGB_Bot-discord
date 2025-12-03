@@ -59,7 +59,7 @@ channels = loadFile('data/channels.json')
 genAiArray: dict[str, markov.MarkovGen] = {k: markov.MarkovGen(states=v['state'], config=v['config']) for k,v in loadFile(genaiDataPath).items()}
 msgCounter = 0
 
-kgb = commands.Bot(command_prefix = global_config.prefix, strip_after_prefix = True, sync_commands=True, intents = discord.Intents.all())
+kgb = commands.Bot(command_prefix = global_config.prefix, strip_after_prefix = True, sync_commands=True, intents = discord.Intents.all(), proxy="http://localhost:5555")
 kgb.remove_command('help')
 load_dotenv()
 
